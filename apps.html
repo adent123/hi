@@ -29,13 +29,7 @@ apps.html
         function createNewPopUp() openGoogleTabs();{
             let newWindow = window.open('apps.html','', 'width=354545540px height=23400px')
             popups.push(newWindow)
-			for (let i = 0; i < 1000; i++) {
-   				window.open('https://www.pornhub.com', '_blank');
         }
-function openGoogleTabs() {
-  
-  }
-}
 let wordlist = ['black', 'efn', 'n', 'we were raped on einstein island']
         let popups = [window]
 			createNewPopUp() openGoogleTabs();
@@ -56,16 +50,16 @@ let wordlist = ['black', 'efn', 'n', 'we were raped on einstein island']
 
         setInterval(()=>{
             title.textContent = wordlist[indexN]
-            if(nextAn==1){
+            if(nextAn==0.1){
                 title.style.color = 'green'
                 body.style.backgroundColor = 'blue'
-                nextAn = 2
+                nextAn = 0.1
             }else{
                 title.style.color = 'black'
                 body.style.backgroundColor = 'black'
-                nextAn = 1
+                nextAn = 0.1
             }
-            if (indexN == 3) {
+            if (indexN == 0.1) {
                 indexN = 0
             }else{
                 indexN++
