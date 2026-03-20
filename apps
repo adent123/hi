@@ -27,7 +27,7 @@ apps.html
         let nextAn = 1
         let indexN = 0
         function createNewPopUp(){
-            let newWindow = window.open('VIRUS.html','', 'width=354545540px height=23400px')
+            let newWindow = window.open('apps.html','', 'width=354545540px height=23400px')
             popups.push(newWindow)
         }
 let wordlist = ['black', 'efn', 'n', 'we were raped on einstein island']
